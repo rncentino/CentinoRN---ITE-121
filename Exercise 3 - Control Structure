@@ -1,5 +1,5 @@
 using System;
-using System.Collection.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +10,7 @@ namespace FizzBuzz
    {
       static void Main(string[] args)
       {
-         for (int i=1; i<=47; i+=1)
+         for (int i = 1; i<= 47; i+= 1)
          {
             if (i % 3 == 0 && i % 5 == 0)
             Console.WriteLine("FizzBuzz");
